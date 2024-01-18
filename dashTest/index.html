@@ -1,40 +1,70 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard: Rastreamento Logístico</title>
+
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+
 </head>
 <body>
 	<div id="content">
-		<div id="section_pri">
-			<h1 id="title_pri">Título da página</h1>
-			
-			<form id="wgt_search">
-				<input type="text">
-				<button><img src="https://th.bing.com/th/id/OIP.J-NC5zdHendWhPtlgsY0LgHaHa?rs=1&pid=ImgDetMain"></button>
-			</form>	
-			<button id="btn_filter">Filtro</button>	
-		</div>
+		<header>
+			<div id="section_pri">
+				<h1 id="title_pri">Rastreamento Logístico</h1>
+				
+				<div id="wgt_search">
+					<input type="text">
+					<button onclick="alert('pesquisando..')"><img src="https://th.bing.com/th/id/OIP.J-NC5zdHendWhPtlgsY0LgHaHa?rs=1&pid=ImgDetMain"></button>
+				</div>
+
+				<button id="btn_filter" onclick="alert('filtrando..')">Filtro</button>	
+			</div>
+		</header>
 
 		<ul id="list_carga">
-			<li class="item_carga" id="test">
-				<p style="float:left">test</p>
-			</li>
+			<li class="item_carga"></li>
 			<li class="item_carga"></li>
 			<li class="item_carga"></li>
 			<li class="item_carga"></li>
 
 			<div id="ban_desc_item">
-				
-			</div>	
-		
+				<button id="btn_close_desc_item">X</button>
+			</div>
+
+			
 			<li class="item_carga"></li>
 			<li class="item_carga"></li>
 			<li class="item_carga"></li>
 			<li class="item_carga"></li>
+
 			<li class="item_carga"></li>
 			<li class="item_carga"></li>
 			<li class="item_carga"></li>
+			<li class="item_carga"></li>
+
+			<li class="item_carga"></li>
+			<li class="item_carga"></li>
+			<li class="item_carga"></li>
+			<li class="item_carga"></li>
+
+			<li class="item_carga"></li>
+			<li class="item_carga"></li>
+			<li class="item_carga"></li>
+			<li class="item_carga"></li>
+
+			
+
 		</ul>
 		
 	</div>
+
+
+    <!-- Referenciando o arquivo JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
 </body>
 </html>
