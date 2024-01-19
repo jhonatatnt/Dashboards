@@ -85,6 +85,10 @@ header {
     margin: 0 0 15px 0; /* Adiciona margem na parte inferior para criar espaço entre os itens */
     list-style: none;
     cursor: pointer;
+    border: transparent 2px solid;
+}
+.item_carga:hover{
+    border: #007067 2px solid;
 }
 .item_motorista{
     flex-basis: calc(15% - 25px); /* Calcula a largura de cada item com 15px de margem entre eles */
