@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 header {
     background-color: #007067;
     color: #fff;
@@ -84,6 +85,14 @@ header {
     margin: 0 0 15px 0; /* Adiciona margem na parte inferior para criar espaço entre os itens */
     list-style: none;
     cursor: pointer;
+}
+
+.title_day{
+    display: block;
+    width: 650px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #8a8a8a;
 }
 
 #ban_desc_item{
