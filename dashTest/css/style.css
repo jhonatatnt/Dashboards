@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: #333;
+    background-color: #007067;
     color: #fff;
     text-align: center;
 }
@@ -21,9 +21,10 @@ header {
 #title_pri{
     display: block;
     float: left;
-    font-size: 28px;
-    font-family: 'arial';
-    color: deep-green;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: white;
 }
 
 #btn_filter{
@@ -90,8 +91,8 @@ header {
     position: absolute;
     width: calc(650px - 10px);
     height: 250px;
-    margin: 0 auto;
-    background-color: #999;
+    margin: 0 345px;
+    background-color: rgb(214, 212, 212);
     border-radius: 10px;
 }
 #btn_close_desc_item{
@@ -99,7 +100,7 @@ header {
     padding: 5px;
     right: 0;
     position: absolute;
-    border: solid 1px #fff;
+    border: solid 2.5px #fff;
     background-color: transparent;
     color: #fff;
     font-size: 14px;
