@@ -66,7 +66,7 @@ header {
     padding: 4px 2.5px;
 }
 
-#list_carga {
+#lists {
     display: flex;
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha conforme necessário */
     justify-content: space-between; /* Distribui o espaço entre os itens */
@@ -80,6 +80,24 @@ header {
 .item_carga {
     flex-basis: calc(25% - 15px); /* Calcula a largura de cada item com 15px de margem entre eles */
     height: 75px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0.2em #999;   
+    margin: 0 0 15px 0; /* Adiciona margem na parte inferior para criar espaço entre os itens */
+    list-style: none;
+    cursor: pointer;
+}
+.item_motorista{
+    flex-basis: calc(15% - 25px); /* Calcula a largura de cada item com 15px de margem entre eles */
+    height: 75px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0.2em #999;   
+    margin: 0 0 25px 0; /* Adiciona margem na parte inferior para criar espaço entre os itens */
+    list-style: none;
+    cursor: pointer;
+}
+.item_car{
+    flex-basis: calc(100%); /* Calcula a largura de cada item com 15px de margem entre eles */
+    height: 150px;
     border-radius: 10px;
     box-shadow: 0px 0px 0.2em #999;   
     margin: 0 0 15px 0; /* Adiciona margem na parte inferior para criar espaço entre os itens */
