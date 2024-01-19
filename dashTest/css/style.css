@@ -116,9 +116,9 @@ header {
 #ban_desc_item{
     display: none;
     position: absolute;
-    width: calc(650px - 10px);
+    width: calc(780px - 10px);
     height: 250px;
-    margin: 0 345px;
+    margin: 0 265px;
     background-color: rgb(214, 212, 212);
     border-radius: 10px;
 }
