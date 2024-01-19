@@ -6,7 +6,7 @@ for (var i = 0; i < items.length; i++) {
     items[i].onclick = function () {
         // Posiciona o ban_desc_item abaixo do item_carga clicado
         var itemRect = this.getBoundingClientRect();
-        ban.style.top = itemRect.bottom + 15 + 'px';
+        ban.style.top =  window.innerHeight/2 - 100 +  "px";
         ban.style.display = "block";
     };
 }

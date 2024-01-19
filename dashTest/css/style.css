@@ -89,7 +89,8 @@ header {
     display: none;
     position: absolute;
     width: calc(650px - 10px);
-    height: 150px;
+    height: 250px;
+    margin: 0 auto;
     background-color: #999;
     border-radius: 10px;
 }
@@ -107,4 +108,3 @@ header {
     cursor: pointer;
     border-radius: 15px;
 }
-#btn_close_desc_item:hover{}
